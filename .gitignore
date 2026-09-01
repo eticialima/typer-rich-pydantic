@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+backups/
+data/
+dist/
+generated/
+tmp/

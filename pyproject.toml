@@ -1,0 +1,21 @@
+[project]
+name = "typer-rich-pydantic-demo"
+version = "0.1.0"
+description = "CLI example using Typer, Rich and Pydantic"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.7",
+    "rich>=13.7",
+    "typer>=0.12",
+]
+
+[project.scripts]
+ops = "ops_cli.main:app"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
