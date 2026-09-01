@@ -1,11 +1,13 @@
-# Typer + Rich + Pydantic Demo
+# Typer + Rich + Pydantic
 
 A small Python CLI example with `backup`, `deploy`, `clean`, and `generate` commands.
+
+![PREVIEW](./preview.png)
 
 ## Install
 
 ```bash
-cd typer-rich-pydantic-demo
+cd typer-rich-pydantic
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
